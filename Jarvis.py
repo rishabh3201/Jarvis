@@ -63,9 +63,7 @@ def MainExe():
             webbrowser.open(f"https://open.spotify.com/search/{query}")
         elif "send message" in Data:
             contact_list = {
-                "divyanshi": "+917018497392",
                 "rishabh": "+918218964361",
-                "ananya": "+918081960970",
                 "oreo": "+918171196035",
             }
             Speak("To whom you want to message sir.....")
